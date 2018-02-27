@@ -45,10 +45,11 @@ matplot(coated$wavelength, coated[, -1], type="l", lty=1,
 matlines(bare$wavelength, bare[, -1], type="l", lty=2)
 legend("topright", c(names(coated)[-1], "bare"), col=1:3, lty=c(1,1,1,2))
 }
+\seealso{
+Other user: \code{\link{mie-package}},
+  \code{\link{mie_approximation}}, \code{\link{mie}}
+}
 \author{
 Baptiste Auguie
 }
-\seealso{
-Other user: \code{\link{mie-package}}, \code{\link{mie}}
-}
-
+\concept{user}

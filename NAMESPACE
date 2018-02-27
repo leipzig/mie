@@ -3,6 +3,7 @@
 export(average_Mloc)
 export(efficiencies)
 export(mie)
+export(mie_approximation)
 export(mie_bh)
 export(psi)
 export(susceptibility)

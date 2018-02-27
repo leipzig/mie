@@ -29,7 +29,7 @@ params <- expand.grid(order = c(1, 2, Inf), radius = c(60),
 all <- mdply(params, exact, medium=1.33,
              .progress="text")
 
-all2 <- mdply(params, approximate, medium=1.33,
+all2 <- mdply(params, approx, medium=1.33,
              .progress="text")
 
 

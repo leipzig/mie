@@ -62,10 +62,11 @@ ggplot(m) +
       linetype = "Order")
 
 }
+\seealso{
+Other user: \code{\link{mie-package}},
+  \code{\link{mie_approximation}}, \code{\link{mie_bh}}
+}
 \author{
 Baptiste Auguie
 }
-\seealso{
-Other user: \code{\link{mie-package}}, \code{\link{mie_bh}}
-}
-
+\concept{user}
